@@ -1,0 +1,2 @@
+SELECT id_nino, GROUP_CONCAT(email SEPARATOR ';') as emails
+    FROM tb_suscripciones GROUP BY id_nino;

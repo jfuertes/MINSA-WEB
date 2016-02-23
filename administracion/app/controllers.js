@@ -82,6 +82,7 @@
                     $scope.usuarios = data;
                     //console.log(data);
                     $scope.usuarios_pag = $scope.usuarios.usuarios.slice(0,$scope.elementos);
+                    console.log($scope.usuarios_pag);
                 })
             .error(function(data) {
                     //console.log('Error: ' + data);
